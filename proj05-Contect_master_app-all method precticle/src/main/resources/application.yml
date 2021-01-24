@@ -1,0 +1,16 @@
+#hibernate properties
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#database property configuration   
+  datasource:
+      driver-class-name: 
+        oracle.jdbc.driver.OracleDriver
+      password: 
+        manager
+      url: 
+        jdbc:oracle:thin:@localhost:1521:orcl
+      username: 
+        system
