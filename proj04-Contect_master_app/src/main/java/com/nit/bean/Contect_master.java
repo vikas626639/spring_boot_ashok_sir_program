@@ -11,7 +11,7 @@ import lombok.Data;
 @Entity	
 public class Contect_master {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Integer contect_id;
 	private String contect_name;
 	private long contect_number;

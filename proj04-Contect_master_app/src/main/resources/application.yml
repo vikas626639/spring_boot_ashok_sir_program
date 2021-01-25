@@ -2,7 +2,10 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto:  update 
+    properties:
+      hibernate:
+        format_sql: true
     show-sql: true
 #database property configuration   
   datasource:
