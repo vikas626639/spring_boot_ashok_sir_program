@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    password: manager
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: system
+  jpa:
+    hibernate:
+      ddl-auto: update 
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
